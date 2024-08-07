@@ -8,6 +8,7 @@ import DesignToolsSection from "./components/DesignToolsSection";
 import CivilWorkSection from "./components/CivilWorkSection";
 import InteriorDesignSection from "./components/InteriorDesignSection";
 import WorkExperience from "./components/WorkExperience";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <AboutSection />
       <Tools />
       <WorkExperience />
+      <Footer />
 
       {/* <DesignToolsSection />
       <CivilWorkSection />

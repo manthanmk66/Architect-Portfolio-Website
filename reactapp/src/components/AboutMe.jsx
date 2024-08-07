@@ -3,7 +3,7 @@ import { FaUser, FaBriefcase } from "react-icons/fa"; // Import icons from react
 
 function AboutMe() {
   return (
-    <div className="flex flex-col bg-richblack-800 md:flex-row justify-center content-center gap-8 md:gap-12 p-6 md:p-10 bg-background shadow-lg h-full min-h-screen">
+    <div className="flex flex-col bg-richblack-700 md:flex-row justify-center content-center gap-8 md:gap-12 p-6 md:p-10 bg-background shadow-lg h-full min-h-screen">
       <div className="md:w-1/2 space-y-6 pt-12">
         <div className="grid gap-2">
           <h2 className="text-2xl font-bold text-white flex items-center">

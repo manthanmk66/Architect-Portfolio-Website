@@ -43,11 +43,11 @@ const cardData = [
 
 export default function Component() {
   return (
-    <div className="h-screen mt-10">
+    <div className="h-screen mt-10 px-4">
       <h1 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem] flex items-center justify-center">
         Software and Tools
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto max-w-5xl pt-10">
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto max-w-5xl pt-10">
         {cardData.map((card, index) => (
           <a
             key={index}
@@ -60,7 +60,7 @@ export default function Component() {
             >
               {card.icon}
             </div>
-            <p className="text-sm font-medium">{card.name}</p>
+            <p className="text-sm font-medium text-center">{card.name}</p>
           </a>
         ))}
       </div>

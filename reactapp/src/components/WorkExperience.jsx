@@ -30,7 +30,7 @@ const workExperienceData = [
 
 export default function WorkExperience() {
   return (
-    <div className="bg-richblack-800 flex items-center justify-center w-full h-screen">
+    <div className="bg-richblack-700 flex items-center justify-center w-full h-screen">
       <div className="p-10 max-w-3xl">
         <h1 className="text-4xl font-bold tracking-tight text-center text-white mb-12">
           Work Experience
