@@ -2,9 +2,12 @@ import React from "react";
 import HeroSection from "./components/HeroSection";
 import AboutSection from "./components/About";
 import AboutMe from "./components/AboutMe";
+import Tools from "./components/Tools";
+import CVCircle from "./animation/CVCircle";
 import DesignToolsSection from "./components/DesignToolsSection";
 import CivilWorkSection from "./components/CivilWorkSection";
 import InteriorDesignSection from "./components/InteriorDesignSection";
+import WorkExperience from "./components/WorkExperience";
 
 function App() {
   return (
@@ -13,6 +16,9 @@ function App() {
 
       <AboutMe />
       <AboutSection />
+      <Tools />
+      <WorkExperience />
+
       {/* <DesignToolsSection />
       <CivilWorkSection />
       <InteriorDesignSection /> */}
