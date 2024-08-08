@@ -1,5 +1,11 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaTwitter,
+  FaEnvelope,
+  FaInstagram,
+} from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -18,7 +24,7 @@ export default function Footer() {
         </div>
         <div className="absolute bottom-4  right-5 flex space-x-4">
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/vrushabh-kothe-0639ab248/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white transition-colors"
@@ -26,15 +32,15 @@ export default function Footer() {
             <FaLinkedin size={24} />
           </a>
           <a
-            href="https://twitter.com/yourusername"
+            href="https://www.instagram.com/mr_allround_er/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white transition-colors"
           >
-            <FaTwitter size={24} />
+            <FaInstagram size={24} />
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:vrushabhkothe99@gmail.com"
             className="text-gray-300 hover:text-white transition-colors"
           >
             <FaEnvelope size={24} />

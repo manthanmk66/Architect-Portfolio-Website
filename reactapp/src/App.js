@@ -5,10 +5,11 @@ import AboutMe from "./components/AboutMe";
 import Tools from "./components/Tools";
 import CVCircle from "./animation/CVCircle";
 import DesignToolsSection from "./components/DesignToolsSection";
-import CivilWorkSection from "./components/CivilWorkSection";
 import InteriorDesignSection from "./components/InteriorDesignSection";
 import WorkExperience from "./components/WorkExperience";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
+import CaraousalSection from "./components/CaraousalSection";
 
 function App() {
   return (
@@ -19,10 +20,11 @@ function App() {
       <AboutSection />
       <Tools />
       <WorkExperience />
+      <CaraousalSection />
       <Footer />
 
       {/* <DesignToolsSection />
-      <CivilWorkSection />
+     
       <InteriorDesignSection /> */}
     </div>
   );
