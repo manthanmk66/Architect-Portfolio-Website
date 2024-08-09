@@ -27,8 +27,8 @@ const CVCircle = () => {
           }
 
           .circle {
-            width: 4.5rem;  /* Explicitly set the width */
-            height: 4.5rem; /* Explicitly set the height */
+            width: 4.5rem;  
+            height: 4.5rem; 
             display: flex;
             justify-content: center;
             align-items: center;
@@ -46,12 +46,12 @@ const CVCircle = () => {
           }
 
           .circle a {
-            width: 100%;  /* Make sure the anchor tag takes the full width */
-            height: 100%; /* Make sure the anchor tag takes the full height */
+            width: 100%;  
+            height: 100%; 
             display: flex;
             justify-content: center;
             align-items: center;
-            text-decoration: none; /* Remove underline */
+            text-decoration: none; 
           }
         `}
       </style>

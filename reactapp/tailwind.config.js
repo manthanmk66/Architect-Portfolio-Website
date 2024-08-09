@@ -7,6 +7,7 @@ module.exports = {
         karla: ["Karla", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         raleway: ["Raleway", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       colors: {
         richblack: {

@@ -6,7 +6,7 @@ function HeroSection() {
   return (
     <section className="relative h-screen p-8 bg-primary text-primary-foreground py-12 md:py-24 lg:py-32">
       <div
-        className="absolute inset-0 z-0 bg-cover bg-center opacity-50"
+        className="absolute inset-0 z-0 bg-cover bg-center opacity-40"
         style={{ backgroundImage: "url('/building2.jpg')" }}
       ></div>
 
@@ -22,23 +22,29 @@ function HeroSection() {
               Hello, I'm{" "}
               <span className="text-fuchsia-600">Vrushabh Kothe</span>
             </h1>
-            <h2 className="pt-4 text-1xl font-bold tracking-tighter sm:text-4xl md:text-3xl lg:text-5xl">
+            <h2 className="pt-4 text-1xl font-bold tracking-tighter sm:text-4xl md:text-4xl lg:text-5xl">
               Designing Innovative Spaces
             </h2>
-            <p className="  mt-4 text-lg text-bold text-primary-foreground/80">
+            <p className="  mt-4 text-lg text-bold ">
               Welcome to my architecture portfolio. I'm a passionate architect
               dedicated to creating beautiful and functional spaces that enhance
               the lives of those who inhabit them.
               <div>
-                <button
-                  type="button"
-                  class="flex items-center text-white bg-gradient-to-r mt-4 from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                <a
+                  href="https://drive.google.com/file/d/1juAEu-RCv9ctOKlHEXntZpOJC234SPhF/view"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Resume
-                  <span class="ml-2">
-                    <IoIosDownload />
-                  </span>
-                </button>
+                  <button
+                    type="button"
+                    class="flex items-center text-white bg-gradient-to-r mt-4 from-cyan-500 to-blue-500 hover:bg-gradient-to-bl  font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2"
+                  >
+                    Resume
+                    <span class="ml-2">
+                      <IoIosDownload />
+                    </span>
+                  </button>
+                </a>
               </div>
             </p>
           </div>
