@@ -18,7 +18,7 @@ function HeroSection() {
       <div className="container relative flex flex-col justify-center items-start h-full z-10">
         <div className="grid gap-8 md:grid-cols-2 md:gap-16">
           <div>
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
+            <h1 className="text-4xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
               Hello, I'm{" "}
               <span className="text-fuchsia-600">Vrushabh Kothe</span>
             </h1>
