@@ -19,7 +19,7 @@ export default function Footer() {
             of the platforms below.
           </p>
           <p className="text-sm text-gray-500">
-            © {new Date().getFullYear()} PathLogics All rights reserved.
+            © {new Date().getFullYear()} Saksentechnologies All rights reserved.
           </p>
         </div>
         <div className="absolute bottom-4  right-5 flex space-x-4">

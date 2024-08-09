@@ -5,7 +5,6 @@ import AboutMe from "./components/AboutMe";
 import Tools from "./components/Tools";
 import CVCircle from "./animation/CVCircle";
 import DesignToolsSection from "./components/DesignToolsSection";
-import InteriorDesignSection from "./components/InteriorDesignSection";
 import WorkExperience from "./components/WorkExperience";
 import Footer from "./components/Footer";
 import Projects from "./components/Projects";

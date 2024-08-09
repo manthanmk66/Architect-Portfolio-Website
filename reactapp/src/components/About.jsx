@@ -8,7 +8,8 @@ function AboutSection() {
         <div className="grid gap-10 sm:px-10 md:gap-16 md:grid-cols-2">
           <div className="space-y-4">
             <h2 className="lg:leading-tighter text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-[3.4rem] 2xl:text-[3.75rem]">
-              Designing <HighlightText text={"the Future"} />
+              Designing
+              <HighlightText text={"the Future"} />
             </h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
