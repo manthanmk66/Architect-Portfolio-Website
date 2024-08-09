@@ -1,5 +1,5 @@
 import React from "react";
-import { FaUser, FaBriefcase } from "react-icons/fa"; 
+import { FaUser, FaBriefcase } from "react-icons/fa";
 
 function AboutMe() {
   return (
@@ -23,7 +23,7 @@ function AboutMe() {
           <div className="text-lg  grid gap-4 text-muted-foreground">
             <div>
               <span className="font-medium">Construction Site Management:</span>{" "}
-              1 years
+              2 years
             </div>
             <div>
               <span className="font-medium">2D Drawings:</span> 2 years
@@ -36,8 +36,8 @@ function AboutMe() {
               years
             </div>
             <div>
-              <span className="font-medium">Total Time in Construction:</span>{" "}
-              1.5 years
+              <span className="font-medium">Total Time in Construction:</span> 2
+              years
             </div>
             <div>
               <span className="font-medium">Interior Design Experience:</span> 2
