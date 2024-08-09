@@ -23,25 +23,25 @@ function AboutMe() {
           <div className="text-lg  grid gap-4 text-muted-foreground">
             <div>
               <span className="font-medium">Construction Site Management:</span>{" "}
-              2 years
+              2+ years
             </div>
             <div>
-              <span className="font-medium">2D Drawings:</span> 2 years
+              <span className="font-medium">2D Drawings:</span> 2+ years
             </div>
             <div>
-              <span className="font-medium">3D Modeling:</span> 2 years
+              <span className="font-medium">3D Modeling:</span> 2+ years
             </div>
             <div>
-              <span className="font-medium">Estimation and Costing:</span> 1
+              <span className="font-medium">Estimation and Costing:</span> 1+
               years
             </div>
             <div>
-              <span className="font-medium">Total Time in Construction:</span> 2
-              years
+              <span className="font-medium">Total Time in Construction:</span>{" "}
+              2+ years
             </div>
             <div>
-              <span className="font-medium">Interior Design Experience:</span> 2
-              years
+              <span className="font-medium">Interior Design Experience:</span>{" "}
+              2+ years
             </div>
           </div>
         </div>

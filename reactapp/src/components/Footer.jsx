@@ -4,12 +4,11 @@ import { FiCoffee } from "react-icons/fi";
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-14">
+    <footer className="bg-gray-900 text-gray-300  py-8">
       <div className="container mx-auto px-4 flex flex-col lg:flex-row justify-between items-center">
-        <div className="text-left lg:text-left mb-6 lg:mb-0">
-          <h2 className="text-xl font-semibold mb-4 flex items-center justify-center lg:justify-start">
-            <FiCoffee className="mr-2" />
-            Let's Connect
+        <div className="text-left lg:text-left mb-6 ml-16 lg:mb-0 lg:ml-44">
+          <h2 className="text-xl font-semibold mb-4 flex items-center gap-2  lg:justify-start">
+            <FiCoffee className="lg:mr-2 " /> Let's Connect
           </h2>
           <p>
             I'm always open to discussing new projects, creative ideas, or
@@ -20,7 +19,7 @@ function Footer() {
           </p>
         </div>
 
-        <div className="text-center lg:text-left">
+        <div className="text-center lg:pr-36 lg:text-left">
           <p className="mb-2">vrushabhkothe99@gmail.com</p>
           <p className="mb-4">+91 9373506216</p>
           <div className="flex justify-center lg:justify-start space-x-4 mb-6 lg:mb-0">
@@ -51,7 +50,8 @@ function Footer() {
       </div>
 
       <div className="text-center mt-6 text-sm text-gray-500">
-        © {new Date().getFullYear()} Saksentechnologies. All rights reserved.
+        © {new Date().getFullYear()} Developed and Designed by
+        Saksentechnologies.
       </div>
     </footer>
   );
